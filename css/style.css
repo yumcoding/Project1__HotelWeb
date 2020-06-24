@@ -12,6 +12,18 @@ body {
   padding: 0 20px;
 }
 
+.bg__dark {
+  background-color: #333;
+}
+
+.bg__light {
+  background-color: #fff;
+}
+
+.bg__primary {
+  background-color: #f7c08a;
+}
+
 .primary__text {
   color: #f7c08a;
 }
@@ -35,6 +47,11 @@ body {
 }
 
 .small__heading {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -133,7 +150,6 @@ p {
   width: auto;
   height: 400px;
   display: flex;
-  background-color: #333;
 }
 
 #info .info__box.left {
@@ -154,4 +170,22 @@ p {
   color: white;
   text-align: center;
   line-height: 1.5em;
+}
+
+/* Features */
+#features {
+  height: 250px;
+  display: flex;
+}
+
+#features .features__box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features__box p {
+  text-align: center;
 }
