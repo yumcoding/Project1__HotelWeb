@@ -7,6 +7,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 /*utility*/
 
 .container {
@@ -18,7 +19,7 @@ body {
 }
 
 .bg__light {
-  background-color: #fff;
+  background-color: #f4f4f4;
 }
 
 .bg__primary {
@@ -38,6 +39,8 @@ body {
 
 .big__heading {
   /*about, contact heading*/
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .normal__heading {
@@ -128,6 +131,7 @@ body {
   height: 600px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 #showcase .showcase__box {
