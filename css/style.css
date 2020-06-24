@@ -54,7 +54,6 @@ body {
 .small__heading {
   font-size: 18px;
   font-weight: 500;
-  color: #333;
   margin-top: 15px;
   margin-bottom: 20px;
 }
@@ -191,6 +190,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.features__box .heading {
+  color: #333;
 }
 
 .features__box p {

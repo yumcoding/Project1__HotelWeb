@@ -35,3 +35,22 @@
 #contact__form .form__group textarea {
   height: 200px;
 }
+
+/* Contact Info */
+#contact__info {
+  height: 200px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#contact__info .contact__infoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__infoBox .heading {
+  color: #fff;
+}
