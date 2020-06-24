@@ -1,3 +1,5 @@
+/* about */
+
 #about {
   height: 340px;
 }
@@ -31,4 +33,39 @@
 .container .about__img img {
   border-radius: 80%;
   width: 50%;
+}
+
+/* testimonials */
+#testimonials {
+  height: 600px;
+  background: url("../images/test-bg.jpg") no-repeat center center/cover;
+}
+
+#testimonials .container {
+  padding: 90px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#testimonials .container .heading {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+#testimonials .container .testimonial__box {
+  color: #333;
+  padding: 20px 10px;
+  margin-bottom: 25px;
+  border-radius: 4px;
+  opacity: 0.8;
+
+  display: flex;
+  align-items: center;
+}
+
+.testimonial__box img {
+  width: 100px;
+  border-radius: 50%;
+  padding-right: 15px;
 }
