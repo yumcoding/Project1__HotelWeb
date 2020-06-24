@@ -1,0 +1,52 @@
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/*utility*/
+
+.container {
+  padding: 0 20px;
+}
+
+/*Navigation Bar*/
+
+#navbar {
+  background-color: #333333;
+  padding: 0 20px;
+}
+
+#navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar .logo {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar ul a {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#navbar ul a:hover,
+#navbar ul a.current {
+  background-color: #444444;
+  color: #f7c08a;
+}
