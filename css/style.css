@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "about.css";
+@import "contact.css";
 
 * {
   box-sizing: border-box;
@@ -61,6 +62,7 @@ body {
 .btn {
   display: block;
   text-decoration: none;
+  border: none;
   font-size: 20px;
   font-weight: 500;
   padding: 13px 20px;
