@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "about.css";
 
 * {
   box-sizing: border-box;
@@ -52,11 +53,6 @@ body {
   color: #333;
   margin-top: 15px;
   margin-bottom: 20px;
-}
-
-p {
-  padding: 0 30px;
-  margin-bottom: 30px;
 }
 
 .btn {
@@ -130,25 +126,28 @@ p {
 #showcase {
   background: url("../images/showcase.jpg") no-repeat center center/cover;
   height: 600px;
+  display: flex;
+  justify-content: center;
 }
 
 #showcase .showcase__box {
-  padding-top: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .showcase__box p {
   color: #fff;
   font-size: 20px;
+  margin-bottom: 30px;
 }
 
 /*info*/
 
 #info {
   width: auto;
-  height: 400px;
+  height: 500px;
   display: flex;
 }
 
@@ -170,11 +169,13 @@ p {
   color: white;
   text-align: center;
   line-height: 1.5em;
+  padding: 0 10px;
+  margin-bottom: 20px;
 }
 
 /* Features */
 #features {
-  height: 250px;
+  height: 300px;
   display: flex;
 }
 
@@ -188,6 +189,7 @@ p {
 
 .features__box p {
   text-align: center;
+  padding: 0 30px;
 }
 
 #footer {

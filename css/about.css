@@ -1,0 +1,16 @@
+#about {
+  height: 350px;
+}
+
+.container {
+  width: auto;
+  display: flex;
+}
+
+.about__content {
+}
+
+.container .about__img img {
+  border-radius: 80%;
+  width: 50%;
+}
