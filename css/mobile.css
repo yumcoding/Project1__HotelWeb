@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px) {
+  #navbar .container {
+    padding: 20px 0;
+    flex-direction: column;
+  }
+  #navbar .container h1 {
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+  #navbar .container ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #navbar .container ul a {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+}
