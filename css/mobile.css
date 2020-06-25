@@ -37,7 +37,6 @@
   #info {
     justify-content: center;
     align-items: center;
-    height: 900px;
   }
 
   #info .info__box.left {
@@ -45,15 +44,16 @@
   }
 
   #info .info__box.right {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    width: 100% !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   #info h2 {
     font-size: 21px;
   }
 
   #info a {
-    margin-top: 18px;
+    margin-top: 15px;
   }
 
   /* features */
