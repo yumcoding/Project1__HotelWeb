@@ -37,14 +37,23 @@
   #info {
     justify-content: center;
     align-items: center;
+    height: 900px;
   }
 
   #info .info__box.left {
     display: none;
   }
 
+  #info .info__box.right {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   #info h2 {
-    font-size: 26px;
+    font-size: 21px;
+  }
+
+  #info a {
+    margin-top: 18px;
   }
 
   /* features */
