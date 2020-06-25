@@ -115,4 +115,15 @@
   #about .about__img {
     margin-bottom: 10px;
   }
+
+  /* testimonials */
+
+  #testimonials .container {
+    height: 800px;
+    padding: 20px;
+    justify-content: center;
+  }
+  .testimonial__box {
+    font-size: 11px;
+  }
 }
