@@ -126,4 +126,20 @@
   .testimonial__box {
     font-size: 11px;
   }
+
+  /* Contact */
+  #contact .container {
+    padding: 20px;
+  }
+
+  #contact__info {
+    height: 500px;
+    flex-direction: column;
+  }
+  #contact__info .contact__infoBox {
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    border-bottom: #444 dotted 1px;
+  }
 }
