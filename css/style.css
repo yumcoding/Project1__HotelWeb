@@ -127,6 +127,12 @@ body {
   color: #f7c08a;
 }
 
+.toggleBtn {
+  display: none;
+  position: absolute;
+  right: 30px;
+}
+
 /*showcase*/
 
 #showcase {
