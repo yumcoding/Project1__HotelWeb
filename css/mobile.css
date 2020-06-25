@@ -81,4 +81,14 @@
   #about p {
     font-size: 16px;
   }
+
+  /* testimonials */
+
+  #testimonials {
+    height: 700px;
+  }
+
+  #testimonials p {
+    line-height: 1.5em;
+  }
 }
