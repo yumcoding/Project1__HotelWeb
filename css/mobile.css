@@ -1,4 +1,5 @@
 @media screen and (max-width: 768px) {
+  /* navbar */
   #navbar .container {
     padding: 20px 0;
     flex-direction: column;
@@ -20,5 +21,14 @@
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 18px;
+  }
+  /*showcase*/
+
+  #showcase h1 {
+    font-size: 50px;
+  }
+
+  .showcase__box p {
+    text-align: center;
   }
 }
