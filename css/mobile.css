@@ -8,7 +8,7 @@
   #navbar .container h1 {
     font-size: 25px;
   }
-  #navbar .container ul {
+  #navbar .container .navbar__menu {
     width: 100%;
     display: none;
     flex-direction: column;
@@ -28,6 +28,11 @@
     text-decoration: none;
     font-size: 24px;
     color: #fff;
+  }
+
+  #navbar .navbar__menu.active {
+    display: flex;
+    margin-top: 15px;
   }
 
   /*showcase*/
