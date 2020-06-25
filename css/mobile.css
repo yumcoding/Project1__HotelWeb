@@ -100,4 +100,19 @@
   #testimonials p {
     line-height: 1.5em;
   }
+
+  /* about */
+
+  #about .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about .about__content {
+    height: 450px;
+  }
+
+  #about .about__img {
+    margin-bottom: 10px;
+  }
 }
